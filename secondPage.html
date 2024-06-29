@@ -18,6 +18,7 @@
 
 
   <div class = "Slideshow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       * {box-sizing: border-box}
       body {font-family: Verdana, sans-serif; margin:0}
@@ -34,10 +35,11 @@
       /* Next & previous buttons */
       .prev, .next {
         align-items: center;
+        position: static;
         cursor: pointer;
         position: absolute;
-        top: 75%;
-        width: 75%;
+        top: 50%;
+        width: auto;
         padding: 16px;
         margin-top: -22px;
         color: rgba(243, 109, 0, 0.945);
@@ -102,7 +104,7 @@
         <div class"slideshow-container">
           <p></p> 
           <div class="mySlides fade">
-            <img src="Images/oldTimesSakeImage.jpg" style="width: 250; height: 250;">
+            <img src="Images/oldTimesSakeImage.jpg" style="width: 275; height: 300;">
           </div>
 
           <div class="mySlides fade">
